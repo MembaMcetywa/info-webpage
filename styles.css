@@ -65,18 +65,34 @@ a {
     width: 300px;
 }
 
-button {
+
+.header-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    padding: 0;
+    background-color: #3882f6;
+    border-radius: 4px;
+    width:80px;
+    height: 25px;
+    border: none;
+    
+}
+
+.banner-button {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #3882f6;
-    color: white;
-    font-weight: bold;
     padding: 0;
-    border: none;
+    border: 2px solid white;
+    color: white;
     border-radius: 4px;
     width:80px;
     height: 25px;
+    font-weight: bold;
 }
 
 .random-info {
@@ -153,19 +169,6 @@ button {
     border-radius: 6px;
 }
 
-.banner-button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-weight: bold;
-    padding: 0;
-    border: 2px;
-    border-color: white;
-    border-radius: 4px;
-    width:80px;
-    height: 25px;
-}
 
 .banner-head {
     font-size: 18px; 
