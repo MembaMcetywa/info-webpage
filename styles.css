@@ -1,3 +1,82 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0 24px;
+    min-height: 100vh;
+    font-size: 16px;
+  }
+
 img {
+    width: 400px;
+    height:200px;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left:42px;
+    margin-right: 42px;
+    padding: 8px;  
+}
+
+.logo {
+    font-weight:bolder;
+    color: white;
+    font-size: 18px;
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+}
+
+.hero {
+    background-color: #1f2937;
+    color: white;
+}
+
+.info-container {
+    display: flex;
+    margin-top: 40px;
+    gap: 50px;
+    padding: 42px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    gap:16px;
+    
+}
+
+.head-text {
+    font-size: 40px;
+    font-weight: bolder;
     width: 300px;
 }
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882f6;
+    color: white;
+    font-weight: bold;
+    padding: 0;
+    border: none;
+    border-radius: 4px;
+    width:80px;
+    height: 25px;
+
+}
+
+
+
+
